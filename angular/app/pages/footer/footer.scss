@@ -1,0 +1,36 @@
+@import "../../../material/project";
+
+.Footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.Footer-text{
+    padding-top: 10px;
+    opacity: 0.8;
+    color: white;
+}
+
+.Footer-link{
+    text-decoration: none;
+    color: red !important;
+    font-weight: 400;
+}
+
+.Footer-link:hover{
+    text-decoration: underline;
+}
+
+.Footer-logo{
+    width: 49px;
+    height: 46px;
+}
